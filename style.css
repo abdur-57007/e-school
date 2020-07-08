@@ -80,9 +80,8 @@ body {
     width: 270px;
     cursor: pointer;
     border-radius: 15px;
-    margin-bottom: 50px;
-    display: flex;
-    
+    margin-bottom: 100px;
+    position: relative;
 }
 .cat-box:hover {
     text-align: center;
@@ -95,8 +94,7 @@ body {
     box-shadow: 5px 10px 10px gray;
     transition: 0.5s;
     cursor: pointer;
-    
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .online-course-heading {
@@ -126,16 +124,16 @@ body {
     height: 24px;
 }
 .man-img {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    width: 50%;  
+    
+    width: 120px;
+    height: auto;
+    
+    
+    
 }
 .testimonial-des  {
     
-    width: auto;
+    width: 500px;
     height: auto;
     margin-left: 50px;
     margin-top: 10px;
