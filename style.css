@@ -4,13 +4,12 @@ body {
 .logo {
     width: 150.07px;
     height: 59px;
-    left: 212px;
-    top: 20px;
+    
+    
 }
 .btn-dg {
     width: 100px;
     height: 43px;
-    top: 25px;
     background:none;
     border-radius: 33px;
     border: none;  
@@ -37,24 +36,18 @@ body {
 .btn-dg:hover {
     width: 100px;
     height: 43px;
-    top: 25px;
     background: #21B573;
     border-radius: 33px;
     color: white; 
     transition: 0.5s;  
 }
 .header-img {
-    position: ;
     width: 554px;
-    height: 346px;
-    left: 691px;
-    top: 157px;
+    height: auto;
 }
 .background {
-    width: 1440px;
+    width: auto;
     height: 576px;
-    left: 0px;
-    top: 0px;
     background: #F0FFF0;
 }
 .heading {
@@ -63,12 +56,10 @@ body {
 #heading-color {
     color: #FD511A;
 }
-.heading-1 {
+.heading-1, .heading-2 {
     font-weight: 700;
 }
-.heading-2 {
-    font-weight: 700;
-}
+
 .hd-color {
     color: #21B573;
 }
@@ -78,8 +69,6 @@ body {
 .img-section-2 {
     width: 66px;
     height: 85px;
-    left: 231px;
-    top: 672px;
     padding-top: 20px;
 }
 .cat-box {
@@ -89,10 +78,11 @@ body {
     border: none;
     height: 270px;
     width: 270px;
-    padding-right: 20px ;
     cursor: pointer;
     border-radius: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    
 }
 .cat-box:hover {
     text-align: center;
@@ -101,16 +91,14 @@ body {
     border: none;
     height: 270px;
     width: 270px;
-    padding-right: 20px ;
     cursor: pointer;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 10px 10px gray;
     transition: 0.5s;
     cursor: pointer;
-    margin-bottom: 100px;
+    
+    margin-bottom: 50px;
 }
-.cat-head {
-    padding-top: 20px;
-}
+
 .online-course-heading {
     text-align: center;
     color: #413960;
@@ -138,18 +126,21 @@ body {
     height: 24px;
 }
 .man-img {
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 353px;
-    top: 1787px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 50%;  
 }
-.testimonial-des {
-    position: absolute;
-    width: 583px;
-    height: 90px;
-    left: 525px;
-    top: 1796px;
+.testimonial-des  {
+    
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+
 }
 .sign-up-from {
     margin-top: 300px;
@@ -183,12 +174,13 @@ body {
     margin-bottom: 100px;
 }
 .footer-bg {
-    width: 1440px;
-    height: 450px;
+    width: auto;
+    height: auto;
     left: 0px;
     top: 0px;
     background: #282531;
     color: white;
+    margin: auto;
 }
 .footer-section {
     margin-top: 130px;
@@ -202,3 +194,4 @@ footer {
     text-align: center;
     font-size: 15px;
 }
+
