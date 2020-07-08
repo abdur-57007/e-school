@@ -1,9 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
 .logo {
-    
     width: 150.07px;
     height: 59px;
     left: 212px;
@@ -33,7 +31,8 @@ body {
     border-radius: 33px;
     color: white;
     border: none;
-    font-weight: 700;   
+    font-weight: 700;  
+    transition: 0.5s;  
 }
 .btn-dg:hover {
     width: 100px;
@@ -41,7 +40,8 @@ body {
     top: 25px;
     background: #21B573;
     border-radius: 33px;
-    color: white;   
+    color: white; 
+    transition: 0.5s;  
 }
 .header-img {
     position: ;
@@ -50,7 +50,6 @@ body {
     left: 691px;
     top: 157px;
 }
-
 .background {
     width: 1440px;
     height: 576px;
@@ -58,34 +57,148 @@ body {
     top: 0px;
     background: #F0FFF0;
 }
-
 .heading {
     font-family: 'Poppins', sans-serif;
 }
-
 #heading-color {
     color: #FD511A;
 }
-
 .heading-1 {
     font-weight: 700;
 }
-
 .heading-2 {
     font-weight: 700;
 }
-
 .hd-color {
     color: #21B573;
 }
-
 .heading-section {
     padding-top: 70px;
 }
-
 .img-section-2 {
     width: 66px;
     height: 85px;
     left: 231px;
     top: 672px;
+    padding-top: 20px;
+}
+.cat-box {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #F8FFFB;
+    border: none;
+    height: 270px;
+    width: 270px;
+    padding-right: 20px ;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.cat-box:hover {
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    border: none;
+    height: 270px;
+    width: 270px;
+    padding-right: 20px ;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px gray;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.cat-head {
+    padding-top: 20px;
+}
+.online-course-heading {
+    text-align: center;
+    color: #413960;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.product-items {
+    border-radius: 35px;
+    box-shadow: 2px 2px 5px grey;
+}
+.product-items:hover {
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px grey;
+    transition: 0.5s;
+}
+.testimonial-headign {
+    text-align: center;
+    color: #413960;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
+.man-img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 353px;
+    top: 1787px;
+}
+.testimonial-des {
+    position: absolute;
+    width: 583px;
+    height: 90px;
+    left: 525px;
+    top: 1796px;
+}
+.sign-up-from {
+    margin-top: 300px;
+}
+.form-heading {
+    text-align: center;
+    color: #413960;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.btn-dg-3 {
+    width: 120px;
+    height: 50px;
+    background: #21B573;
+    border-radius: 33px;
+    color: white;
+    border: none;
+    margin-bottom: 100px;
+}
+.btn-dg-3:hover {
+    width: 120px;
+    height: 50px;
+    background: #1f9c64;
+    border-radius: 33px;
+    color: white;
+    border: none;
+    font-weight: 700;  
+    transition: 0.5s; 
+    margin-bottom: 100px;
+}
+.footer-bg {
+    width: 1440px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    background: #282531;
+    color: white;
+}
+.footer-section {
+    margin-top: 130px;
+    text-decoration: none;
+}
+.footer-info {
+    font-weight: 700;
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
 }
